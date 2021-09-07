@@ -2,7 +2,7 @@ import dummy from "./dummy";
 
 /* **************** TASK 1.A ********************* */
 
-const createNewObjectFromApiResponse = (coponentList) => {
+export const createNewObjectFromApiResponse = (coponentList) => {
   let result = {};
 
   coponentList.forEach((item) => {
