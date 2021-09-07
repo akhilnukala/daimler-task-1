@@ -21,7 +21,7 @@ const resultList = createNewObjectFromApiResponse(
   dummy.data.dashboard.components
 );
 
-console.log(resultList);
+console.log("TASK 1.A RESULT", resultList);
 
 /* **************** TASK 1.B ********************* */
 
@@ -42,4 +42,4 @@ const removeLocations = (locations, dataObject) => {
 
 const resultObject = removeLocations(["AGAAA", "OVLHP", "DR005"], dummy);
 
-console.log(resultObject);
+console.log("TASK 1.B RESULT", resultObject);
